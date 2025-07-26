@@ -1,36 +1,53 @@
-✅ Key Features Implemented:
-One-Way & Round-Trip Booking:
+# ✈️ Travel Booking Application
 
-Seamless toggle between one-way and round-trip modes.
+A fully responsive and interactive travel booking interface supporting both **One-Way** and **Round-Trip** journeys. Built from scratch using React and Tailwind CSS without relying on external UI libraries.
 
-For round-trip bookings, the return date is validated to ensure it’s after the departure date.
+---
 
-Airport Selection with Validation:
+## ✅ Key Features Implemented
 
-Users can choose departure and destination airports.
+### 🧭 One-Way & Round-Trip Booking
+- Seamless toggle between **One-Way** and **Round-Trip** modes.
+- For **Round-Trip**, return date validation ensures it's always after the departure date.
 
-The system prevents selecting the same airport for both 'From' and 'To', displaying a relevant error.
+### 🛫 Airport Selection with Validation
+- Select both **From** and **To** airports.
+- Error handling prevents users from selecting the same airport for both departure and destination.
 
-Passenger Details:
+### 👨‍👩‍👧 Passenger Details
+- Input the number of **Adults**, **Children**, and **Seniors**.
+- Choose **Travel Class** (e.g., Economy, Business, First Class).
 
-Users can specify the number of adults, children, and seniors.
+### 📅 Date Selection
+- Integrated date pickers.
+- Logic to disable invalid date combinations (e.g., return date before departure date).
 
-Option to select the travel class/type, enhancing booking personalization.
+### ✅ Booking Confirmation
+- On valid input, clicking **Select** shows a success alert to simulate a real booking confirmation.
 
-Date Selection:
+---
 
-Integrated date pickers with logic to disable invalid date combinations, especially for round trips.
+## 🎨 UI & Design Decisions
 
-Booking Confirmation:
+### ✨ Clean & Minimalist Design
+- Focused on **clarity** and **usability** with an intuitive user interface.
+- Designed to avoid visual clutter, ensuring a smooth user experience.
 
-On valid input and clicking "Select", a success alert confirms the booking to simulate real-world interaction.
+### 📱 Fully Responsive Layout
+- Works seamlessly across **desktop**, **tablet**, and **mobile** devices.
+- Custom media queries and Tailwind responsive utilities ensure adaptive behavior.
 
-🎨 UI & Design Decisions:
-Clean & Minimalist Design:
-Interface focuses on clarity and usability across all screen sizes without overwhelming visuals.
+### 🛠️ Built From Scratch
+- No external UI libraries used.
+- All components, styling, and interactions are custom-built using **React + Tailwind CSS**.
 
-Responsiveness:
-Layout adapts seamlessly for desktop, tablet, and mobile using custom media queries and responsive components.
+---
 
-From Scratch Implementation:
-No external UI libraries or component frameworks were used — all components, styling, and logic were built from scratch.
+## 🚀 Getting Started
+
+### 📦 Installation
+```bash
+git clone https://github.com/tusharn3115/NVAG-ASSIGNMENT
+cd NVAG-ASSIGNMENT -> cd travel-booking
+npm install
+npm run dev
